@@ -1,43 +1,78 @@
-body {
-    margin: 60px auto;
-    width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://www.hiltonhawaiianvillage.com/assets/img/discover/oahu-island-activities/HHV_Oahu-island-activities_Content_Beaches_455x248_x2.jpg');
+      background-size: cover;
+      color: purple;
+    }
+    a {
+      color: blue;
+    }
+    h1 {
+      font-size: 60px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 6px solid white;
+      border-radius: 15px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(280, 100, 280, 0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="http://static.greatbigcanvas.com/images/square/panoramic-images/waves-on-the-beach-seven-mile-beach-grand-cayman-cayman-islands,123821.jpg?max=128">
+    <h1>Gerlou's Blog</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Favorite Songs</a></li>
+      <li><a href="#">Food Places</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>a blog about me</h2>
+    <p>make it pop like pink champagne
+    </p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>TV Shows</h2>
+    <p>How I Met Your Mother, The Big Bang Theory, Arrested Development, Family Guy, Modern Family, The Office.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Food Trucks</h2>
+    <p>Song La, Jefes Street Tacos, Delicious Thai, Ice Scrapers, ATX Boudain Hut, Cow Tipping Creamery </p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
