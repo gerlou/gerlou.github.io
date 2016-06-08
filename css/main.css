@@ -9,6 +9,7 @@
     }
     h1 {
       font-size: 60px;
+      font-family: "Helvetica";
     }
     img {
       margin: 40px 0px 0px 0px;
@@ -32,7 +33,6 @@
       h1 {
         font-size: 36px;
         padding: 5px;
-        font-family: "Helvetica";
       }
       li {
         padding: 5px;
