@@ -14,7 +14,8 @@ p {
 }
 
 u1 {
-  font-size: 14px;
+  font-size: 18px;
   color: blue;
   background-color: rgba(175, 238, 238, .5);
+  padding: 10px;
 }
