@@ -18,6 +18,11 @@ article {
 }
 
 u1 {
+  font-size: 24px;
+  background-color: rgba(000, 191, 255, .5);
+}
+
+u2 {
   font-size: 18px;
   color: blue;
   background-color: rgba(175, 238, 238, .5);
