@@ -10,5 +10,9 @@ p {
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;  
   background-color: rgba(255, 182, 193, .5);
-  padding: 50px 40px 50px 40px;
+  padding: 20px 40px 20px 40px;
+}
+
+u1 {
+  padding: 0px 20px 5px 0px;
 }
