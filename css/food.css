@@ -5,6 +5,12 @@ h1 {
   text-align: center;
   background-color: rgba(132, 112, 255, .5);
 }
+h2 {
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
+  color: purple;
+  background-color: rgba(000, 206, 209, .5);
+}
 
 p {
   font-size: 18px;
@@ -15,4 +21,8 @@ p {
 
 u1 {
   padding: 0px 20px 5px 0px;
+}
+
+u2 {
+  
 }
