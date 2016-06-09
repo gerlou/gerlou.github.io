@@ -24,6 +24,12 @@ u1 {
 }
 
 u2 {
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+  background-color: rgba(186, 085, 211, .5);
+}
+
+u3 {
   font-size: 18px;
   color: blue;
   background-color: rgba(175, 238, 238, .5);
