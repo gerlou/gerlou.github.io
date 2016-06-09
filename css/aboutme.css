@@ -5,3 +5,9 @@ h1 {
   text-align: center;
   background-color: rgba(132, 112, 255, .5);
 }
+
+p {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;  
+  background-color: rgba(255, 182, 193, .5);
+}
