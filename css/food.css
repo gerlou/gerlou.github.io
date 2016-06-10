@@ -31,6 +31,9 @@ u2 {
   
 }
 
-div {
-  
+.dessert p {
+  height: 50px;
+}
+.dessert small {
+  opacity: 1;
 }
