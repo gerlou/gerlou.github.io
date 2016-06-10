@@ -29,7 +29,17 @@ u2 {
   background-color: rgba(186, 085, 211, .5);
 }
 
+h2 {
+  font-size: 18px;
+  font-family: 'font-family: 'Muli', sans-serif;
+  background-color: rgba(000, 191, 255, .5);
+}
+
 u3 {
+  
+}
+
+div {
   font-size: 18px;
   color: blue;
   background-color: rgba(175, 238, 238, .5);
