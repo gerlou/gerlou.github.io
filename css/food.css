@@ -30,7 +30,17 @@ u1 {
 u2 {
   
 }
+div {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
 
+.dessert {
+  
+}
 .dessert p {
   height: 50px;
 }
