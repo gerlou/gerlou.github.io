@@ -30,6 +30,11 @@ u1 {
 u2 {
   
 }
+article {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0,0,0,.4));
+}
 .dessert {
   
 }
